@@ -1,0 +1,485 @@
+body{
+	font-family:'Roboto', san-serif;
+}
+h2{
+	font-family: 'Lobster', cursive;
+	text-align:center;
+	font-size:300%;
+	margin-top:2px;
+	margin-bottom:2px;
+	color:#EE307A;
+	text-shadow:2px 2px 5px rgba(0,0,0, 0.3);
+}
+h1{
+	font-family: 'Lobster', cursive;
+	text-align:center;
+	font-size:80px !important;
+	color:#EE307A;
+	text-shadow:2px 2px 5px rgba(0,0,0, 0.3);
+	margin:3px;
+}
+* {
+    box-sizing: border-box;
+}
+.left{
+	float:left;
+}
+.right{
+	float:right;
+}
+.headerLogoImg{
+}
+/* Create two equal columns that floats next to each other */
+.column {
+	display:block;
+    float: left;
+    width: 50%;
+    padding: 10px;
+}
+.row{
+	margin-left:50px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+.aboutSocialMedia{
+	text-align:center;
+	margin:auto;
+}
+@font-face {
+    font-family: 'si';
+    src: url('../assets/socicon.eot');
+    src: url('../assets/socicon.eot?#iefix') format('embedded-opentype'),
+         url('../assets/socicon.woff') format('woff'),
+         url('../assets/socicon.ttf') format('truetype'),
+         url('../assets/socicon.svg#icomoonregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+    @font-face {
+        font-family:si;
+        src: url(../assets/socicon.svg) format(svg);
+    }
+}
+
+.soc {
+    overflow:hidden;
+    margin:0; padding:0;
+    list-style:none;
+	padding-top:5px;
+}
+
+.soc li {
+    display:inline-block;
+    *display:inline;
+    zoom:1;
+}
+
+.soc li a {
+    font-family:si!important;
+    font-style:normal;
+    font-weight:400;
+    -webkit-font-smoothing:antialiased;
+    -moz-osx-font-smoothing:grayscale;
+    -webkit-box-sizing:border-box;
+    -moz-box-sizing:border-box;
+    -ms-box-sizing:border-box;
+    -o-box-sizing:border-box;
+    box-sizing:border-box;
+
+    -o-transition:.1s;
+    -ms-transition:.1s;
+    -moz-transition:.1s;
+    -webkit-transition:.1s;
+    transition:.1s;
+    -webkit-transition-property: transform;
+    transition-property: transform;
+    -webkit-transform: translateZ(0);
+    transform: translateZ(0);
+
+    overflow:hidden;
+    text-decoration:none;
+    text-align:center;
+    display:block;
+    position: relative;
+    z-index: 1;
+    width: 64px;
+    height: 64px;
+    line-height: 64px;
+    font-size: 35px;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    border-radius: 50px;
+    margin-right: 10px;
+    color: #EE307A;
+    background-color: #489ED7;
+}
+
+.soc a:hover {
+    z-index: 2;
+    -webkit-transform: translateY(-5px);
+    transform: translateY(-5px);
+	box-shadow:2px 2px 3px rgba(238, 48, 122, 0.6);
+}
+
+.soc-icon-last{
+    margin:0 !important;
+}
+
+.soc-twitter:before {
+    content:'\e040';
+}
+.soc-facebook:before {
+    content:'\e041';
+}
+.soc-instagram:before {
+    content:'\e057';
+}
+.soc-mail:before {
+    content:'\e01f';
+}
+.soc-tumblr:before {
+    content:'\e059';
+}
+.aboutImage{
+	background-image:url("../assets/aboutImg.png");
+	background-size:contain;
+	background-repeat:no-repeat;
+	background-position:center top;
+	background-color:#fff;
+	border-radius:50%;
+	border-width:4px;
+	border-style:solid;
+	border-color:#EE307A;
+	overflow:hidden;
+	height:250px;
+	width:250px;
+	margin:auto;
+}
+.aboutImg{
+}
+.logoImg{
+	background-color:#fff;
+	background-image:url("../assets/logo.png");
+	height:100px;
+	background-repeat:no-repeat;
+	background-position:left top;
+	background-size:contain;
+	margin-bottom:3px;
+}
+.BMLogoText{
+	background-image:url("../assets/BMLogoText.png");
+	height:100px;
+	background-repeat:no-repeat;
+	background-position:center top;
+	background-size:contain;
+	margin-bottom:3px;
+}
+.clearfix:before,
+.clearfix:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+
+.clearfix:after {
+    clear: both;
+}
+/**
+ * For IE 6/7 only
+ * Include this rule to trigger hasLayout and contain floats.
+ */
+.clearfix {
+    *zoom: 1;
+}
+/* Add a black background color to the top navigation */
+.topnav {
+    background-color: #489ED7;
+    overflow: hidden;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+    float: left;
+    display: block;
+    color: #f2f2f2 !important;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+    background-color: #ddd;
+    color: #09141B !important;
+}
+div.gallery {
+    margin: 5px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 40%;
+}
+
+div.gallery:hover {
+    border: 1px solid #777;
+}
+
+div.gallery img {
+    width: 100%;
+    height: auto;
+}
+
+div.desc {
+    padding: 15px;
+    text-align: center;
+}
+.modelName{
+	font-family: 'Lobster', cursive;
+	text-align:center;
+	color:#EE307A;
+	margin:3px;
+	text-shadow:1px 1px 2px rgba(0,0,0, 0.3);
+}
+/* Style inputs with type="text", select elements and textareas */
+input[type=text], select, textarea {
+    width: 100%; /* Full width */
+    padding: 12px; /* Some padding */  
+    border: 1px solid #ccc; /* Gray border */
+    border-radius: 4px; /* Rounded borders */
+    box-sizing: border-box; /* Make sure that padding and width stays in place */
+    margin-top: 6px; /* Add a top margin */
+    margin-bottom: 16px; /* Bottom margin */
+    resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+input[type=text]:focus, select:focus, textarea:focus {
+	border-color:#EE307A;
+	outline:none;
+	box-shadow:2px 2px 3px rgba(238, 48, 122, 0.6);
+}
+
+/* Style the submit button with a specific background color etc */
+input[type=submit] {
+    background-color: #EE307A;
+    color: white;
+    padding: 12px 12px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+/* When moving the mouse over the submit button, add a darker green color */
+input[type=submit]:hover {
+    background-color: #9869AA;
+	color:#fff;
+	box-shadow:2px 2px 3px rgba(238, 48, 122, 0.6);
+}
+.tabBtnBar{
+	margin:0 auto;
+	text-align:center;
+	padding-bottom:0px;
+	margin-bottom:0px;
+}
+.tabBtn:not(:first-child){
+	margin-left:24px;
+}
+.tabBtn{
+	border-radius:5px 5px 0px 0px;
+	background-color:#fff;
+	border-style:solid;
+	border-width:1px;
+	border-color:#ccc;
+	margin-bottom:0px;
+	border-bottom-color:transparent;
+}
+.tabBtn:hover{
+	filter:brightness(.7) !important;
+	text-shadow:2px 2px 2px rgba(0,0,0,0.3);
+	cursor:pointer;
+}
+.tabBtn:focus{
+	border-color:#489ED7;
+	border-bottom-color:transparent;
+	border-width:1px;
+	outline:none;
+	box-shadow: 0px -1px 1px 1px rgba(72, 158, 215,0.5);
+}
+.step{
+	font-family: 'Special Elite', cursive;
+	font-size:16px;
+	color:#489ED7;
+}
+.activeStep{
+	background:rgba(249, 186, 210, 0.5);
+}
+.stepNum{
+	font-family: 'Shrikhand', cursive;
+	font-size:40px;
+	color:#489ED7;
+}
+.stepDesc{
+	font-family: 'Lobster', cursive;
+	color:#EE307A;
+	margin-top:0px;
+	text-align:center;
+}
+.purchaseStep{
+	background:#C2DEF1;
+	margin-left:20%;
+	margin-right:20%;
+}
+.galleryDiv{
+	text-align:center;
+	padding:10px;
+}
+.galleryBtn{
+	margin:10px;
+	border-radius:50%;
+	border-style:solid;
+	border-color:#EE307A;
+	width:100px;
+	height:100px;
+	overflow:hidden;
+	background-color:#B5B8C7;
+	transition:border-color 0.6s;
+}
+.galleryBtn:hover{
+	border-color:#9869AA;
+	transition:border-color 0.6s;
+}
+.galleryBtn:focus{
+	border-radius:50%;
+	border-color:#489ED7;
+	outline:none;
+}
+.modelBtn{
+	display:block;
+	margin:auto;
+	background-size:contain !important;
+	width:100px;
+	height:100px;
+	margin-left:-5px;
+	transition:filter 0.6s;
+}
+.modelBtn:hover{
+	filter:grayscale(100%);
+	transition:filter 0.6s;
+}
+.model1{
+	background:url("../assets/model1.png");
+}
+.model2{
+	background:url("../assets/model2.png");
+}
+.model3{
+	background:url("../assets/model3.png");
+}
+.model4{
+	background:url("../assets/model4.png");
+}
+.nextBtn{
+	
+}
+.nextBtn i{
+	font-size:inherit;
+	vertical-align:middle;
+	float:right;
+}
+.bottomBtns{
+	font-size:16px;
+	color:#EE307A;
+	background-color:#fff;
+	border-color:#EE307A;
+	border-width:1px;
+	border-radius:5px;
+	border-style:solid;
+	padding:4px;
+	cursor:pointer;
+	text-decoration:none;
+}
+.bottomBtns:hover{
+	color:#489ED7;
+	background-color:#F9BAD2;
+	box-shadow:2px 2px 3px rgba(238, 48, 122, 0.6);
+}
+.purchaseTA{
+	margin:0 auto;
+}
+.messageForm{
+	text-align:left !important;
+}
+.container{
+    margin-left: auto;
+    margin-right: auto;
+    width: 710px;
+    padding: 30px 0px 10px 0px;
+}
+.box-170 {
+    width: 170px;
+    display: inline;
+	float: left;
+	margin-right:7px;
+}
+.formContainer{
+	padding:12px;
+	background-color:rgba(194, 222, 241, 0.5);
+}
+/* Hide the link that should open and close the topnav on small screens */
+.topnav .icon {
+    display: none;
+}
+@media screen and (max-width: 600px) {
+    .column {
+        width: 100%;
+    }
+}
+
+/* When the screen is less than 600 pixels wide, hide all links, except for the first one ("Home"). Show the link that contains should open and close the topnav (.icon) */
+@media screen and (max-width: 600px) {
+  .topnav a:not(:first-child) {display: none;}
+  .topnav a.icon {
+    float: right;
+    display: block;
+  }
+  .BMLogoText{
+	 margin-left:104px;
+  }
+  .purchaseStep{
+	  margin-left:12%;
+	  margin-right:12%;
+  }
+  .galleryBtn{
+	  margin-right:28px;
+  }
+  .modelBottomBtns{
+	  width:200px;
+		margin:0 auto !important;
+  }
+  .bottomBtns{
+	  width:100%;
+	  margin-top:10px;
+  }
+}
+
+/* The "responsive" class is added to the topnav with JavaScript when the user clicks on the icon. This class makes the topnav look good on small screens (display the links vertically instead of horizontally) */
+@media screen and (max-width: 600px) {
+  .topnav.responsive {position: relative;}
+  .topnav.responsive a.icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  .topnav.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+}
