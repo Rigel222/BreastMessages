@@ -332,6 +332,9 @@ input[type=submit]:hover {
 	text-align:center;
 }
 .purchaseStep{
+	border-radius:4px;
+	border-style:solid;
+	border-color:#C2DEF1;
 	background:#C2DEF1;
 	margin-left:20%;
 	margin-right:20%;
@@ -436,6 +439,23 @@ input[type=submit]:hover {
 .topnav .icon {
     display: none;
 }
+.comingSoonLogo1{
+	margin:0 auto;
+	background-Image:url("../assets/BMLogoText.png");
+	background-size:contain;
+	background-position:center;
+	height:200px;
+	background-repeat:no-repeat;
+}
+.comingSoonLogo2{
+	margin:0 auto;
+	background-Image:url("../assets/Logo.png");
+	background-size:contain;
+	background-position:center;
+	height:200px;
+	background-repeat:no-repeat;
+}
+
 @media screen and (max-width: 600px) {
     .column {
         width: 100%;
