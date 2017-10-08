@@ -28,18 +28,30 @@ include 'boilerplate.php';
 			<div id="step1" class="purchaseStep">
 				<h3 class="stepDesc">Choose Your Model</h3>
 				<div class="galleryDiv">
-					<button class="galleryBtn">
-						<div class="modelBtn model1"></div>
-					</button>
-					<button class="galleryBtn">
-						<div class="modelBtn model2"></div>
-					</button>
-					<button class="galleryBtn">
-						<div class="modelBtn model3"></div>
-					</button>
-					<button class="galleryBtn">
-						<div class="modelBtn model4"></div>
-					</button>
+					<div class="block">
+						<button id="model1" class="galleryBtn">
+							<div class="modelBtn model1"></div>
+						</button>
+						<h3 class="modelName">Jenelle</h3>
+					</div>
+					<div class="block">
+						<button id="model2"  class="galleryBtn">
+							<div class="modelBtn model2"></div>
+						</button>
+						<h3 class="modelName">Garnet</h3>
+					</div>
+					<div class="block">
+						<button id="model3"  class="galleryBtn">
+							<div class="modelBtn model3"></div>
+						</button>
+						<h3 class="modelName">Jean</h3>
+					</div>
+					<div class="block">
+						<button id="model4"  class="galleryBtn">
+							<div class="modelBtn model4"></div>
+						</button>
+						<h3 class="modelName">Aveline</h3>
+					</div>
 					<div class="modelBottomBtns">
 						<a href="models.php" class="bottomBtns left">Learn More about our Models</a>
 						<a href="#" onclick="step('btn2')" class="bottomBtns right nextBtn">Next <i class="material-icons">forward</i></a>
@@ -70,10 +82,24 @@ include 'boilerplate.php';
 			</div>
 			<div id="step3" style="display:none" class="purchaseStep">
 				<h3 class="stepDesc">Enter Payment Details</h3>
+				<div class="galleryDiv">
+					<div class="modelBottomBtns">
+						<a href="#" onclick="step('btn4')" class="bottomBtns right nextBtn">Next <i class="material-icons">forward</i></a>
+						<div class="clearfix"></div>
+					</div>
+				</div>
 			</div>
 			<div id="step4" style="display:none" class="purchaseStep">
-				
 				<h3 class="stepDesc">Confirmation</h3>
+				<div class="galleryDiv">
+					<div class="BMLogo">
+					</div>
+					<div>
+						<h1>Thanks for your order!</h3>
+					</div>
+					<div class="modelBottomBtns">
+					</div>
+				</div>
 			</div>
 		</div>	
 	</body>

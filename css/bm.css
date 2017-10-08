@@ -167,6 +167,13 @@ h1{
 }
 .aboutImg{
 }
+.BMLogo{
+	background-image:url("../assets/BMLogo.png");
+	background-repeat:no-repeat;
+	background-position:center;
+	background-size:contain;
+	height:200px;
+}
 .logoImg{
 	background-color:#fff;
 	background-image:url("../assets/logo.png");
@@ -192,6 +199,10 @@ h1{
 
 .clearfix:after {
     clear: both;
+}
+.block{
+	display:inline-block;
+	
 }
 /**
  * For IE 6/7 only
@@ -344,6 +355,7 @@ input[type=submit]:hover {
 	padding:10px;
 }
 .galleryBtn{
+	border-width:4px;
 	margin:10px;
 	border-radius:50%;
 	border-style:solid;
@@ -362,8 +374,18 @@ input[type=submit]:hover {
 	border-radius:50%;
 	border-color:#489ED7;
 	outline:none;
+	filter:grayscale(0%):
+}
+.galleryBtn div:focus{
+	filter:grayscale(0%);
+}
+.modelBtnDiv{
+	float:left;
+	margin-left:5%;
+	text-align:center;
 }
 .modelBtn{
+	filter:grayscale(100%);
 	display:block;
 	margin:auto;
 	background-size:contain !important;
@@ -373,7 +395,7 @@ input[type=submit]:hover {
 	transition:filter 0.6s;
 }
 .modelBtn:hover{
-	filter:grayscale(100%);
+	filter:grayscale(0%);
 	transition:filter 0.6s;
 }
 .model1{

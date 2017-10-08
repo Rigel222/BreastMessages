@@ -14,5 +14,6 @@
 				<a href="#news">News</a>
 				<a href="contact.php">Contact</a>
 				<a href="about.php">About Us</a>
+				<a href="#merch.php">Merchandise</a>
 				<a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;</a>
 		</div>
