@@ -4,20 +4,20 @@
 				</div>
 			</div>
 		</div>
-		<div class="topnav" id="myTopnav">
-			<div class="dropdown">
-				<a class="dropbtn" href="index.php">Home<i class="fa fa-caret-down"></i></a>
-					<div class="dropdown-content">
-						<a href="#news">News</a>
-					</div>
-			</div>
-				<a href="purchase.php">Purchase</a>
-				<a href="#promotions">Promotions</a>
-				<a href="#merch.php">Merchandise</a>
-				<a href="#donations">Donations</a>
-				<a href="gallery.php">Gallery</a>
-				<a href="models.php">Models</a>
-				<a href="about.php">About Us</a>
-				<a href="contact.php">Contact</a>
-				<a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;</a>
-		</div>
+<nav class="menu">
+    <ul class="active">
+        <li class="current-item"><a href="#">Home</a></li>
+        <li><a href="#">News</a></li>
+        <li><a href="#">Purchase</a></li>
+        <li><a href="#">Promotions</a></li>
+        <li><a href="#">Merchandise</a></li>
+        <li><a href="#">Donations</a></li>
+        <li><a href="#">Gallery</a></li>
+        <li><a href="#">Models</a></li>
+        <li><a href="#">About Us</a></li>
+        <li><a href="#">Contact</a></li>
+    </ul>
+ 
+    <a class="toggle-nav" href="#">&#9776;</a>
+ 
+</nav>

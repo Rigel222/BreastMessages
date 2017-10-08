@@ -5,12 +5,12 @@
 			</div>
 		</div>
 		<div class="topnav" id="myTopnav">
-				<a href="index.php">Home</a>
-				<a href="#news">News</a>
+				<a id="home" href="index.php">Home</a>
+				<a href="news.php">News</a>
 				<a href="purchase.php">Purchase</a>
-				<a href="#promotions">Promotions</a>
-				<a href="#merch.php">Merchandise</a>
-				<a href="#donations">Donations</a>
+				<a href="promotions.php">Promotions</a>
+				<a href="merch.php">Merchandise</a>
+				<a href="donations.php">Donations</a>
 				<a href="gallery.php">Gallery</a>
 				<a href="models.php">Models</a>
 				<a href="about.php">About Us</a>

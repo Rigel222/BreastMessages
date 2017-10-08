@@ -11,7 +11,7 @@ include 'boilerplate.php';
 	</head>
 
 	<body>
-		<?php include 'header2.php'; ?>            
+		<?php include 'header.php'; ?>            
 		<div class="pageContainer">	
 			<h2>Models</h2>
 			<div class="row">
