@@ -6,11 +6,12 @@ include 'boilerplate.php';
 	<head>
 		<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
 		<link href="css/bm.css" rel="stylesheet" type="text/css" />
+		<script src="https://use.fontawesome.com/69b802f25c.js"></script>
 		<script src="js/bm.js"></script>
 	</head>
 
 	<body>
-		<?php include 'header.php'; ?>            
+		<?php include 'header2.php'; ?>            
 		<div class="pageContainer">	
 			<h2>Models</h2>
 			<div class="row">

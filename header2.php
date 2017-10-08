@@ -5,8 +5,12 @@
 			</div>
 		</div>
 		<div class="topnav" id="myTopnav">
-				<a href="index.php">Home</a>
-				<a href="#news">News</a>
+			<div class="dropdown">
+				<a class="dropbtn" href="index.php">Home<i class="fa fa-caret-down"></i></a>
+					<div class="dropdown-content">
+						<a href="#news">News</a>
+					</div>
+			</div>
 				<a href="purchase.php">Purchase</a>
 				<a href="#promotions">Promotions</a>
 				<a href="#merch.php">Merchandise</a>
