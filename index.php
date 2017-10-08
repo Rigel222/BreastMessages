@@ -1,3 +1,6 @@
+<?php
+include 'boilerplate.php';
+?>
 <!DOCTYPE html>
 <html>
 	<head>
