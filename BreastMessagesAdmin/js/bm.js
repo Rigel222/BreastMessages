@@ -46,6 +46,22 @@ function modelSelect(selection){
 	var b=selection.innerText;
 	a.innerText=b;
 }
+function modelAvailability(e){
+	var a=event.target;
+	var b=a.parentElement;
+	var c=b.className;
+	var d=getComputedStyle(b).getPropertyValue('background-color');
+	var e=b.style.backgroundColor;
+	if(d=='rgb(31, 70, 95)'){
+		b.classList.remove('event2');
+		b.style.backgroundColor='transparent';
+	}else{
+		c+=" event2";
+		b.style.backgroundColor='rgb(31, 70, 95)';
+		var x=0;
+	}
+}
+
 function readURL() {
 	var loadFile = function(event) {
 		var reader = new FileReader();
